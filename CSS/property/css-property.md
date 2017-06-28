@@ -1,8 +1,7 @@
 # CSS Property
 
-|                            |                                   |                                                                                                                                                                                     |         | 
-|----------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------| 
 | Property                   | Group                             | Description                                                                                                                                                                         | Version | 
+|----------------------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------| 
 | @font-face                 | Font                              | A rule that allows websites to download and use fonts other than the "web-safe" fonts                                                                                               | 3       | 
 | @font-feature-values       | Font                              | Allows authors to use a common name in font-variant-alternate for feature activated differently in OpenType                                                                         | 3       | 
 | @keyframes                 | Animation                         | Specifies the animation code                                                                                                                                                        | 3       | 

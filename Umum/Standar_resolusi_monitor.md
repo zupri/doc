@@ -6,6 +6,7 @@ The following tables contain a list of commonly used standard resolutions, used 
 ## Resolutions of Computer Graphics Equipment
 
 The following table contains a list of all popular computer display formats.
+
 | Name    | Dimension (w x h) | Aspect Ratio | Pixels (*) | Comment                                                                                                                | 
 |---------|-------------------|--------------|------------|------------------------------------------------------------------------------------------------------------------------|
 | CGA     | 320 x 200         | 16:10        | 62.5 k     | Color Graphics Adapter - first display standard for PCs with color displays.                                           | 
@@ -34,6 +35,7 @@ The following table contains a list of all popular computer display formats.
 ## Resolutions of TV and Video Applications
 
 The following table contains a list of all relevant resolutions defined by digital video standards and used within TV or video equipment. See also the video format page for additional information.
+
 | Name                                                                                                                                                                                                                                                                    | Dimension (w x h) | Aspect Ratio                                                                                                                                                                                                             | Pixels (*) | Comment                                                                                                                                                                                                                                                | 
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | QCIF                                                                                                                                                                                                                                                                    | 176 x 144         | 4:3 (**)                                                                                                                                                                                                                 | 24.8 k     | Quarter Common Intermediate Format - Standard for video conferencing systems.                                                                                                                                                                          | 
@@ -69,6 +71,7 @@ The following table contains a list of all relevant resolutions defined by digit
 ## Resolutions of Mobile Devices
 
 The following table contains a list of display resolutions commonly used within mobile devices, like cell phones, PDAs, portable DVD players, digital cameras or navigation systems. Even many displays are mounted in portrait format, the dimension is written here in landscape format (width >= height).
+
 | Dimension (w x h) | Aspect Ratio | Pixels (*) | Comment                                                                                                                                  | 
 |-------------------|--------------|------------|------------------------------------------------------------------------------------------------------------------------------------------| 
 | 128 x 128         | 1:1          | 16.0 k     | Square display format, used in MP3 players (some with JPEG viewer) and in a few mobile phones.                                           | 

@@ -94,4 +94,4 @@ The following table contains a list of display resolutions commonly used within 
 
 * number of pixels: 1 k = 1024
 
-Sumber : [http://www.equasys.de/standardresolution.html](http://www.equasys.de/standardresolution.html)
+Source : [http://www.equasys.de/standardresolution.html](http://www.equasys.de/standardresolution.html)

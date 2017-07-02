@@ -34,6 +34,9 @@
 
 
 PPI = Pixel per Inchi
+
 PPm = Pixel per millimeter
+
 Dot pitch = Besaran titik
+
 pixel = elemen gambar

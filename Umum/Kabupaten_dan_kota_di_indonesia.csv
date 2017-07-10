@@ -1,0 +1,502 @@
+KODE;PROPINSI_ID;KABUPATEN_ATAU_KOTA;IBU_KOTA
+TTN;1;Kabupaten Aceh Selatan;Tapak Tuan
+KTN;1;Kabupaten Aceh Tenggara;Kutacane
+LGS;1;Kabupaten Aceh Timur;Langsa             
+TKN;1;Kabupaten Aceh Tengah;Takengon           
+MBO;1;Kabupaten Aceh Barat;Meulaboh           
+JTH;1;Kabupaten Aceh Besar;Jantho             
+SGI;1;Kabupaten Pidie;Sigli              
+LSK;1;Kabupaten Aceh Utara;Lhoksukon          
+SNB;1;Kabupaten Simeulue;Sinabang           
+SKL;1;Kabupaten Aceh Singkil;Singkil            
+BIR;1;Kabupaten Bireuen;Bireuen            
+BPD;1;Kabupaten Aceh Barat Daya;Blangpidie         
+BKJ;1;Kabupaten Gayo Lues;Blangkejeren       
+CAG;1;Kabupaten Aceh Jaya;Calang             
+SKM;1;Kabupaten Nagan Raya;Suka Makmue         
+KRB;1;Kabupaten Aceh Tamiang;Karang Baru         
+STR;1;Kabupaten Bener Meriah;Simpang Tiga Redelong
+MRN;1;Kabupaten Pidie Jaya;Meureundu          
+BNA;1;Kota Banda Aceh;Banda Aceh          
+SAB;1;Kota Sabang;Sabang             
+LSM;1;Kota Lhokseumawe;Lhokseumawe        
+LGS;1;Kota Langsa;Langsa             
+SUS;1;Kota Subulussalam;Subulussalam
+SBG;2;Kabupaten Tapanuli Tengah;Sibolga
+TRT;2;Kabupaten Tapanuli Utara;Tarutung
+PSP;2;Kabupaten Tapanuli Selatan;Padang Sidempuan
+GST;2;Kabupaten Nias;Gunungsitoli
+STB;2;Kabupaten Langkat;Stabat
+KBJ;2;Kabupaten Karo;Kabanjahe
+LBP;2;Kabupaten Deli Serdang;Lubuk Pakam
+PMS;2;Kabupaten Simalungun;Pematang Siantar
+KIS;2;Kabupaten Asahan;Kisaran
+RAP;2;Kabupaten Labuhanbatu;Rantau Prapat
+SDK;2;Kabupaten Dairi;Sidikalang
+BLG;2;Kabupaten Toba Samosir;Balige
+PYB;2;Kabupaten Mandailing Natal;Panyabungan
+TLD;2;Kabupaten Nias Selatan;Teluk Dalam
+SAL;2;Kabupaten Pakpak Bharat;Salak
+DLS;2;Kabupaten Humbang Hasundutan;Dolok Sanggul
+PRR;2;Kabupaten Samosir;Pangururan
+SRH;2;Kabupaten Serdang Bedagai;Sei Rampah
+LMP;2;Kabupaten Batu Bara;Lima Puluh
+GNT;2;Kabupaten Padang Lawas Utara;Gunung Tua
+SBH;2;Kabupaten Padang Lawas;Sibuhuan
+KPI;2;Kabupaten Labuhanbatu Selatan;Kota Pinang
+AKK;2;Kabupaten Labuhanbatu Utara;Aek Kanopan
+LTU;2;Kabupaten Nias Utara;Lotu
+LHM;2;Kabupaten Nias Barat;Lahomi
+MDN;2;Kota Medan;Medan
+PMS;2;Kota Pematangsiantar;Pematangsiantar
+SBG;2;Kota Sibolga;Sibolga
+TJB;2;Kota Tanjung Balai;Tanjung Balai
+BNJ;2;Kota Binjai;Binjai
+TBT;2;Kota Tebing Tinggi;Tebing Tinggi
+PSP;2;Kota Padang Sidempuan;Padang Sidempuan
+GST;2;Kota Gunungsitoli;Gunungsitoli
+PNN;3;Kabupaten Pesisir Selatan;Painan
+ARS;3;Kabupaten Solok;Arosuka
+MRJ;3;Kabupaten Sijunjung (Sawah Lunto Sijunjung);Muaro Sijunjung
+BSK;3;Kabupaten Tanah Datar;Batusangkar
+NPM;3;Kabupaten Padang Pariaman;Nagari Parit Malintang
+LBB;3;Kabupaten Agam;Lubuk Basung
+SRK;3;Kabupaten Lima Puluh Kota;Sarilamak
+LBS;3;Kabupaten Pasaman;Lubuk Sikaping
+TPT;3;Kabupaten Kepulauan Mentawai;Tuapejat
+PLJ;3;Kabupaten Dharmasraya;Pulau Punjung
+PDA;3;Kabupaten Solok Selatan;Padang Aro
+SPE;3;Kabupaten Pasaman Barat;Simpang Empat
+PAD;3;Kota Padang;Padang
+SLK;3;Kota Solok;Solok
+SWL;3;Kota Sawahlunto;Sawahlunto
+PDP;3;Kota Padang Panjang;Padang Panjang
+BKT;3;Kota Bukittinggi;Bukittinggi
+PYH;3;Kota Payakumbuh;Payakumbuh
+PMN;3;Kota Pariaman;Pariaman
+BKN;4;Kabupaten Kampar;Bangkinang
+RGT;4;Kabupaten Indragiri Hulu;Rengat
+BLS;4;Kabupaten Bengkalis;Bengkalis
+TBH;4;Kabupaten Indragiri Hilir;Tembilahan
+PKK;4;Kabupaten Pelalawan;Pangkalan Kerinci
+PRP;4;Kabupaten Rokan Hulu;Pasir Pengarairan
+UJT;4;Kabupaten Rokan Hilir;Ujung Tanjung
+SAK;4;Kabupaten Siak;Siak Sriindrapura
+TLK;4;Kabupaten Kuantan Singingi;Teluk Kuantan
+TTG;4;Kabupaten Kepulauan Meranti;Tebing Tinggi
+PBR;4;Kota Pekanbaru;Pekanbaru
+DUM;4;Kota Dumai;Dumai
+SPN;5;Kabupaten Kerinci;Sungai Penuh
+BKO;5;Kabupaten Merangin;Bangko
+SRL;5;Kabupaten Sarolangun;Sarolangun
+MBN;5;Kabupaten Batanghari;Muara Bulian
+SNT;5;Kabupaten Muaro Jambi;Sengeti
+KLT;5;Kabupaten Tanjung Jabung Barat;Kuala Tungkal
+MSK;5;Kabupaten Tanjung Jabung Timur;Muara Sabak
+MRB;5;Kabupaten Bungo;Muara Bungo
+MRT;5;Kabupaten Tebo;Muara Tebo
+JMB;5;Kota Jambi;Jambi
+SPN;5;Kota Sungai Penuh;Sungai Penuh
+BTA;6;Kabupaten Ogan Komering Ulu;Baturaja
+KAG;6;Kabupaten Ogan Komering Ilir;Kayu Agung
+MRE;6;Kabupaten Muara Enim;Muara Enim
+LHT;6;Kabupaten Lahat;Lahat
+MBL;6;Kabupaten Musi Rawas;Muarabeliti
+SKY;6;Kabupaten Musi Banyuasin;Sekayu
+PKB;6;Kabupaten Banyuasin;Pangkalan Balai
+MPR;6;Kabupaten Ogan Komering Ulu Timur (Oku Timur);Martapura
+MRD;6;Kabupaten Ogan Komering Ulu Selatan (Oku Selatan);Muaradua
+IDL;6;Kabupaten Ogan Ilir;Indralaya
+TBG;6;Kabupaten Empat Lawang;Tebing Tinggi
+PLG;6;Kota Palembang;Pelembang
+PGA;6;Kota Pagar Alam;Pagar Alam
+LLG;6;Kota Lubuk Linggau;Lubuk Linggau
+PBM;6;Kota Prabumulih;Prabumulih
+MNA;7;Kabupaten Bengkulu Selatan;Manna
+CRP;7;Kabupaten Rejang Lebong;Curup
+AGM;7;Kabupaten Bengkulu Utara;Arga Makmur
+BHN;7;Kabupaten Kaur;Bintuhan
+TAS;7;Kabupaten Seluma;Tais
+MKM;7;Kabupaten Muko Muko;Mukomuko
+TUB;7;Kabupaten Lebong;Tubei
+KPH;7;Kabupaten Kepahiang;Kepahiang
+KRT;7;Kabupaten Bengkulu Tengah;Karang Tinggi
+BGL;7;Kota Bengkulu;Bengkulu
+KLA;8;Kabupaten Lampung Selatan;Kalianda
+GNS;8;Kabupaten Lampung Tengah;Gunung Sugih
+KTB;8;Kabupaten Lampung Utara;Kotabumi
+LIW;8;Kabupaten Lampung Barat;Liwa
+MGL;8;Kabupaten Tulang Bawang;Menggala
+KOT;8;Kabupaten Tanggamus;Kota Agung
+SDN;8;Kabupaten Lampung Timur;Sukadana
+BBU;8;Kabupaten Way Kanan;Blambangan Umpu
+GDT;8;Kabupaten Pesawaran;Gedong Tataan
+PRW;8;Kabupaten Pringsewu;Pringsewu
+MSJ;8;Kabupaten Mesuji;Mesuji
+TWG;8;Kabupaten Tulang Bawang Barat;Tulang Bawang Tengah
+KRU;8;Kabupaten Pesisir Barat;Krui
+BDL;8;Kota Bandar Lampung;Bandar Lampung
+MET;8;Kota Metro;Metro
+SGL;9;Kabupaten Bangka;Sungai Liat
+TDN;9;Kabupaten Belitung;Tanjung Pandan
+TBL;9;Kabupaten Bangka Selatan;Toboali
+KBA;9;Kabupaten Bangka Tengah;Koba
+MTK;9;Kabupaten Bangka Barat;Mentok
+MGR;9;Kabupaten Belitung Timur;Manggar
+PGP;9;Kota Pangkal Pinang;Pangkal Pinang
+BSB;10;Kabupaten Bintan;Bandar Seri Bentan
+TBK;10;Kabupaten Karimun;Tanjung Balai Karimun
+RAN;10;Kabupaten Natuna;Ranai
+DKL;10;Kabupaten Lingga;Daik Lingga
+TRP;10;Kabupaten Kepulauan Anambas;Tarempa
+BTM;10;Kota Batam;Batam
+TPG;10;Kota Tanjung Pinang;Tanjung Pinang
+KSU;11;Kabupaten Adm. Kepulauan Seribu;Kepulauan Seribu Utara
+TNA;11;Kota Adm. Jakarta Pusat;Tanah Abang
+TJP;11;Kota Adm. Jakarta Utara;Tanjung Priok
+GGP;11;Kota Adm. Jakarta Barat;Grogol Petamburan
+KYB;11;Kota Adm. Jakarta Selatan;Kebayoran Baru
+CKG;11;Kota Adm. Jakarta Timur;Cakung
+CBI;12;Kabupaten Bogor;Cibinong
+SBM;12;Kabupaten Sukabumi;Sukabumi
+CJR;12;Kabupaten Cianjur;Cianjur
+SOR;12;Kabupaten Bandung;Soreang
+GRT;12;Kabupaten Garut;Garut
+SPA;12;Kabupaten Tasikmalaya;Singaparna
+CMS;12;Kabupaten Ciamis;Ciamis
+KNG;12;Kabupaten Kuningan;Kuningan
+SBR;12;Kabupaten Cirebon;Sumber
+MJL;12;Kabupaten Majalengka;Majalengka
+SMD;12;Kabupaten Sumedang;Sumedang
+IDM;12;Kabupaten Indramayu;Indramayu
+SNG;12;Kabupaten Subang;Subang
+PWK;12;Kabupaten Purwakarta;Purwakarta
+KWG;12;Kabupaten Karawang;Karawang
+CKR;12;Kabupaten Bekasi;Cikarang
+NPH;12;Kabupaten Bandung Barat;Ngamprah
+PAG;12;Kabupaten Pangandaran;Parigi
+BGR;12;Kota Bogor;Bogor
+SKB;12;Kota Sukabumi;Sukabumi
+BDG;12;Kota Bandung;Bandung
+CBN;12;Kota Cirebon;Cirebon
+BKS;12;Kota Bekasi;Bekasi
+DPK;12;Kota Depok;Depok
+CMH;12;Kota Cimahi;Cimahi
+TSM;12;Kota Tasikmalaya;Tasikmalaya
+BJR;12;Kota Banjar;Banjar
+CLP;13;Kabupaten Cilacap;Cilacap
+PWT;13;Kabupaten Banyumas;Purwokerto
+PBG;13;Kabupaten Purbalingga;Purbalingga
+BNR;13;Kabupaten Banjarnegara;Banjarnegara
+KBM;13;Kabupaten Kebumen;Kebumen
+PWR;13;Kabupaten Purworejo;Purworejo
+WSB;13;Kabupaten Wonosobo;Wonosobo
+MKD;13;Kabupaten Magelang;Mungkid
+BYL;13;Kabupaten Boyolali;Boyolali
+KLN;13;Kabupaten Klaten;Klaten
+SKH;13;Kabupaten Sukoharjo;Sukoharjo
+WNG;13;Kabupaten Wonogiri;Wonogiri
+KRG;13;Kabupaten Karanganyar;Karanganyar
+SGN;13;Kabupaten Sragen;Sragen
+PWD;13;Kabupaten Grobogan;Purwodadi
+BLA;13;Kabupaten Blora;Blora
+RBG;13;Kabupaten Rembang;Rembang
+PTI;13;Kabupaten Pati;Pati
+KDS;13;Kabupaten Kudus;Kudus
+JPA;13;Kabupaten Jepara;Jepara
+DMK;13;Kabupaten Demak;Demak
+UNR;13;Kabupaten Semarang;Ungaran
+TMG;13;Kabupaten Temanggung;Temanggung
+KDL;13;Kabupaten Kendal;Kendal
+BTG;13;Kabupaten Batang;Batang
+KJN;13;Kabupaten Pekalongan;Kajen
+PML;13;Kabupaten Pemalang;Pemalang
+SLW;13;Kabupaten Tegal;Slawi
+BBS;13;Kabupaten Brebes;Brebes
+MGG;13;Kota Magelang;Magelang
+SKT;13;Kota Surakarta (Solo);Surakarta
+SLT;13;Kota Salatiga;Salatiga
+SMG;13;Kota Semarang;Semarang
+PKL;13;Kota Pekalongan;Pekalongan
+TGL;13;Kota Tegal;Tegal
+WAT;14;Kabupaten Kulon Progo;Wates
+BTL;14;Kabupaten Bantul;Bantul
+WNO;14;Kabupaten Gunung Kidul;Wonosari
+SMN;14;Kabupaten Sleman;Sleman
+YYK;14;Kota Yogyakarta;Yogyakarta
+PCT;15;Kabupaten Pacitan;Pacitan
+PNG;15;Kabupaten Ponorogo;Ponorogo
+TRK;15;Kabupaten Trenggalek;Trenggalek
+TLG;15;Kabupaten Tulungagung;Tulungagung
+KNR;15;Kabupaten Blitar;Kanigoro
+KDR;15;Kabupaten Kediri;Kediri
+KPN;15;Kabupaten Malang;Kepanjen
+LMJ;15;Kabupaten Lumajang;Lumajang
+JMR;15;Kabupaten Jember;Jember
+BYW;15;Kabupaten Banyuwangi;Banyuwangi
+BDW;15;Kabupaten Bondowoso;Bondowoso
+SIT;15;Kabupaten Situbondo;Situbondo
+KRS;15;Kabupaten Probolinggo;Kraksaan
+PSR;15;Kabupaten Pasuruan;Pasuruan
+SDA;15;Kabupaten Sidoarjo;Sidoarjo
+MJK;15;Kabupaten Mojokerto;Mojokerto
+JBG;15;Kabupaten Jombang;Jombang
+NJK;15;Kabupaten Nganjuk;Nganjuk
+MJY;15;Kabupaten Madiun;Mejayan
+MGT;15;Kabupaten Magetan;Magetan
+NGW;15;Kabupaten Ngawi;Ngawi
+BJN;15;Kabupaten Bojonegoro;Bojonegoro
+TBN;15;Kabupaten Tuban;Tuban
+LMG;15;Kabupaten Lamongan;Lamongan
+GSK;15;Kabupaten Gresik;Gresik
+BKL;15;Kabupaten Bangkalan;Bangkalan
+SPG;15;Kabupaten Sampang;Sampang
+PMK;15;Kabupaten Pamekasan;Pamekasan
+SMP;15;Kabupaten Sumenep;Sumenep
+KDR;15;Kota Kediri;Kediri
+BLT;15;Kota Blitar;Blitar
+MLG;15;Kota Malang;Malang
+PBL;15;Kota Probolinggo;Probolinggo
+PSN;15;Kota Pasuruan;Pasuruan
+MJK;15;Kota Mojokerto;Mojokerto
+MAD;15;Kota Madiun;Madiun
+SBY;15;Kota Surabaya;Surabaya
+BTU;15;Kota Batu;Batu
+PDG;16;Kabupaten Pandeglang;Pandeglang
+RKB;16;Kabupaten Lebak;Rangkas Bitung
+TGR;16;Kabupaten Tangerang;Tigaraksa
+SRG;16;Kabupaten Serang;Serang
+TNG;16;Kota Tangerang;Tangerang
+CLG;16;Kota Cilegon;Cilegon
+SRG;16;Kota Serang;Serang
+CPT;16;Kota Tangerang Selatan;Ciputat
+NGA;17;Kabupaten Jembrana;Negara
+TAB;17;Kabupaten Tabanan;Tabanan
+MGW;17;Kabupaten Badung;Mengwi
+GIN;17;Kabupaten Gianyar;Gianyar
+SRP;17;Kabupaten Klungkung;Semarapura
+BLI;17;Kabupaten Bangli;Bangli
+KRA;17;Kabupaten Karangasem;Karangasem
+SGR;17;Kabupaten Buleleng;Singaraja
+DPR;17;Kota Denpasar;Denpasar
+GRG;18;Kabupaten Lombok Barat;Gerung
+PYA;18;Kabupaten Lombok Tengah;Praya
+SEL;18;Kabupaten Lombok Timur;Selong
+SBW;18;Kabupaten Sumbawa;Sumbawa Besar
+DPU;18;Kabupaten Dompu;Dompu
+WHO;18;Kabupaten Bima;Woha
+TLW;18;Kabupaten Sumbawa Barat;Taliwang
+TJN;18;Kabupaten Lombok Utara;Tanjung
+MTR;18;Kota Mataram;Mataram
+BIM;18;Kota Bima;Bima
+KPG;19;Kabupaten Kupang;Kupang
+SOE;19;Kabupaten Timor Tengah Selatan;Soe
+KFM;19;Kabupaten Timor Tengah Utara;Kefamenanu
+ATB;19;Kabupaten Belu;Atambua
+KLB;19;Kabupaten Alor;Kalabahi
+LRT;19;Kabupaten Flores Timur;Larantuka
+MME;19;Kabupaten Sikka;Maumere
+END;19;Kabupaten Ende;Ende
+BJW;19;Kabupaten Ngada;Bajawa
+RTG;19;Kabupaten Manggarai;Ruteng
+WGP;19;Kabupaten Sumba Timur;Waingapu
+WKB;19;Kabupaten Sumba Barat;Waikabubak
+LWL;19;Kabupaten Lembata;Lewoleba
+BAA;19;Kabupaten Rote Ndao;Baa
+LBJ;19;Kabupaten Manggarai Barat;Labuan Bajo
+MBY;19;Kabupaten Nagekeo;Mbay
+WBL;19;Kabupaten Sumba Tengah;Waibakul
+TAM;19;Kabupaten Sumba Barat Daya;Tambolaka
+BRG;19;Kabupaten Manggarai Timur;Borong
+SBB;19;Kabupaten Sabu Raijua;Sabu Barat
+KPG;19;Kota Kupang;Kupang
+SBS;20;Kabupaten Sambas;Sambas
+MPW;20;Kabupaten Pontianak;Mempawah
+SAG;20;Kabupaten Sanggau;Sanggau
+KTP;20;Kabupaten Ketapang;Ketapang
+STG;20;Kabupaten Sintang;Sintang
+PTS;20;Kabupaten Kapuas Hulu;Putussibau
+BEK;20;Kabupaten Bengkayang;Bengkayang
+NBA;20;Kabupaten Landak;Ngabang
+SED;20;Kabupaten Sekadau;Sekadau
+NGP;20;Kabupaten Melawi;Nanga Pinoh
+SKD;20;Kabupaten Kayong Utara;Sukadane
+SRY;20;Kabupaten Kubu Raya;Sungai Raya
+PTK;20;Kota Pontianak;Pontianak
+SKW;20;Kota Singkawang;Singkawang
+PBU;21;Kabupaten Kotawaringin Barat;Pangkalan Bun
+SPT;21;Kabupaten Kotawaringin Timur;Sampit
+KLK;21;Kabupaten Kapuas;Kuala Kapuas
+BNT;21;Kabupaten Barito Selatan;Buntok
+MTW;21;Kabupaten Barito Utara;Muara Teweh
+KSN;21;Kabupaten Katingan;Kasongan
+KLP;21;Kabupaten Seruyan;Kuala Pembuang
+SKR;21;Kabupaten Sukamara;Sukamara
+NGB;21;Kabupaten Lamandau;Nanga Bulik
+KKN;21;Kabupaten Gunung Mas;Kuala Kurun
+PPS;21;Kabupaten Pulang Pisau;Pulang Pisau
+PRC;21;Kabupaten Murung Raya;Puruk Cahu
+TML;21;Kabupaten Barito Timur;Tamiang Layang
+PLK;21;Kota Palangka Raya;Palangkaraya
+PLI;22;Kabupaten Tanah Laut;Pelaihari
+KBR;22;Kabupaten Kotabaru;Kotabaru
+MTP;22;Kabupaten Banjar;Martapura
+MRH;22;Kabupaten Barito Kuala;Marabahan
+RTA;22;Kabupaten Tapin;Rantau
+KGN;22;Kabupaten Hulu Sungai Selatan;Kandangan
+BRB;22;Kabupaten Hulu Sungai Tengah;Barabai
+AMT;22;Kabupaten Hulu Sungai Utara;Amuntai
+TJG;22;Kabupaten Tabalong;Tanjung
+BLN;22;Kabupaten Tanah Bumbu;Batulicin
+PRN;22;Kabupaten Balangan;Paringin
+BJM;22;Kota Banjarmasin;Banjarmasin
+BJB;22;Kota Banjarbaru;Banjarbaru
+TGT;23;Kabupaten Paser;Tanah Grogot
+TRG;23;Kabupaten Kutai Kartanegara;Tenggarong
+TNR;23;Kabupaten Berau;Tanjung Redeb
+SDW;23;Kabupaten Kutai Barat;Sendawar
+SGT;23;Kabupaten Kutai Timur;Sanggatta
+PNJ;23;Kabupaten Penajam Paser Utara;Penajam
+BPP;23;Kota Balikpapan;Balikpapan
+SMR;23;Kota Samarinda;Samarinda
+BON;23;Kota Bontang;Bontang
+NNK;24;Kabupaten Nunukan;Nunukan
+MLN;24;Kabupaten Malinau;Malinau
+TJS;24;Kabupaten Bulungan (Bulongan);Tanjung Selor
+TDP;24;Kabupaten Tana Tidung;Tideng Pale
+TAR;24;Kota Tarakan;Tarakan
+LLK;25;Kabupaten Bolaang Mongondow;Lolak
+TNN;25;Kabupaten Minahasa;Tondano
+THN;25;Kabupaten Kepulauan Sangihe;Tahuna
+MGN;25;Kabupaten Kepulauan Talaud;Melongguane
+AMR;25;Kabupaten Minahasa Selatan;Amurang
+ARM;25;Kabupaten Minahasa Utara;Air Madidi
+RTN;25;Kabupaten Minahasa Tenggara;Ratahan
+BRK;25;Kabupaten Bolaang Mongondow Utara;Boroko
+ODS;25;Kabupaten Kepulauan Siau Tagulandang Biaro (Sitaro);Ondong Siau
+TTY;25;Kabupaten Bolaang Mongondow Timur;Tutuyan
+BLU;25;Kabupaten Bolaang Mongondow Selatan;Bolaang Uki
+MND;25;Kota Manado;Manado
+BIT;25;Kota Bitung;Bitung
+TMH;25;Kota Tomohon;Tomohon
+KTG;25;Kota Kotamobagu;Kotamobagu
+LWK;26;Kabupaten Banggai;Luwuk
+PSO;26;Kabupaten Poso;Poso
+DGL;26;Kabupaten Donggala;Donggala
+TLI;26;Kabupaten Toli-Toli;Toli Toli
+BUL;26;Kabupaten Buol;Buol
+BGK;26;Kabupaten Morowali;Bungku
+SKN;26;Kabupaten Banggai Kepulauan;Salakan
+PRG;26;Kabupaten Parigi Moutong;Parigi
+APN;26;Kabupaten Tojo Una-Una;Ampana
+SGB;26;Kabupaten Sigi;Sigi Biromaru
+PAL;26;Kota Palu;Palu
+BEN;27;Kabupaten Selayar (Kepulauan Selayar);Benteng
+BLK;27;Kabupaten Bulukumba;Bulukumba
+BAN;27;Kabupaten Bantaeng;Bantaeng
+JNP;27;Kabupaten Jeneponto;Jeneponto
+TKA;27;Kabupaten Takalar;Takalar
+SGM;27;Kabupaten Gowa;Sungguminasa
+SNJ;27;Kabupaten Sinjai;Sinjai
+WTP;27;Kabupaten Bone;Watampone
+MRS;27;Kabupaten Maros;Maros
+PKJ;27;Kabupaten Pangkajene Kepulauan;Pangkajene
+BAR;27;Kabupaten Barru;Barru
+WNS;27;Kabupaten Soppeng;Watan Soppeng
+SKG;27;Kabupaten Wajo;Sengkang
+SDR;27;Kabupaten Sidenreng Rappang (Sidrap);Sidenreng
+PIN;27;Kabupaten Pinrang;Pinrang
+ENR;27;Kabupaten Enrekang;Enrekang
+PLP;27;Kabupaten Luwu;Palopo
+MAK;27;Kabupaten Tana Toraja;Makale
+MSB;27;Kabupaten Luwu Utara;Masamba
+MLL;27;Kabupaten Luwu Timur;Malili
+RTP;27;Kabupaten Toraja Utara;Rantepao
+MKS;27;Kota Makassar;Makassar
+PRE;27;Kota Parepare;Pare Pare
+PLP;27;Kota Palopo;Palopo
+KKA;28;Kabupaten Kolaka;Kolaka
+UNH;28;Kabupaten Konawe;Unaaha
+RAH;28;Kabupaten Muna;Raha
+PSW;28;Kabupaten Buton;Pasar Wajo
+ADL;28;Kabupaten Konawe Selatan;Andoolo
+RMB;28;Kabupaten Bombana;Rumbia
+WGW;28;Kabupaten Wakatobi;Wangi Wangi
+LSS;28;Kabupaten Kolaka Utara;Lasusua
+WGD;28;Kabupaten Konawe Utara;Wanggudu
+BNG;28;Kabupaten Buton Utara;Buranga
+KDI;28;Kota Kendari;Kendari
+BAU;28;Kota Bau Bau;Bau-Bau
+GTO;29;Kabupaten Gorontalo;Gorontalo
+TMT;29;Kabupaten Boalemo;Tilamuta
+SWW;29;Kabupaten Bone Bolango;Suwawa
+MAR;29;Kabupaten Pahuwato (Pohowato);Marisa
+KWD;29;Kabupaten Gorontalo Utara;Kwandang
+GTO;29;Kota Gorontalo;Gorontalo
+PKY;30;Kabupaten Mamuju Utara;Pasangkayu
+MAM;30;Kabupaten Mamuju;Mamuju
+MMS;30;Kabupaten Mamasa;Mamasa
+PLW;30;Kabupaten Polewali Mandar;Polewali
+MJN;30;Kabupaten Majene;Majene
+MSH;31;Kabupaten Maluku Tengah;Masohi
+TUL;31;Kabupaten Maluku Tenggara;Tual
+SML;31;Kabupaten Maluku Tenggara Barat;Saumlaki
+NLA;31;Kabupaten Buru;Namlea
+DTH;31;Kabupaten Seram Bagian Timur;Dataran Hunimoa
+DRH;31;Kabupaten Seram Bagian Barat;Dataran Hunipopu
+DOB;31;Kabupaten Kepulauan Aru;Dobo
+TKR;31;Kabupaten Maluku Barat Daya;Tiakur
+NMR;31;Kabupaten Buru Selatan;Namrole
+AMB;31;Kota Ambon;Ambon
+TUL;31;Kota Tual;Tual
+JLL;32;Kabupaten Halmahera Barat;Jailolo
+WED;32;Kabupaten Halmahera Tengah;Weda
+TOB;32;Kabupaten Halmahera Utara;Tobelo
+LBA;32;Kabupaten Halmahera Selatan;Labuha
+SNN;32;Kabupaten Kepulauan Sula;Sanana
+MAB;32;Kabupaten Halmahera Timur;Maba
+MTS;32;Kabupaten Pulau Morotai;Morotai Selatan
+TTE;32;Kota Ternate;Ternate
+TDR;32;Kota Tidore Kepulauan;Tidore
+MRK;33;Kabupaten Merauke;Merauke
+WAM;33;Kabupaten Jayawijaya;Wamena
+JAP;33;Kabupaten Jayapura;Jayapura
+NAB;33;Kabupaten Nabire;Nabire
+SRU;33;Kabupaten Kepulauan Yapen (Yapen Waropen);Serui
+BIK;33;Kabupaten Biak Numfor;Biak
+MUL;33;Kabupaten Puncak Jaya;Mulia
+ERT;33;Kabupaten Paniai;Enarotali
+TIM;33;Kabupaten Mimika;Timika
+SMI;33;Kabupaten Sarmi;Sarmi
+WRS;33;Kabupaten Keerom;Waris
+OSB;33;Kabupaten Pegunungan Bintang;Oksibil
+SMH;33;Kabupaten Yahukimo;Sumohai
+KBG;33;Kabupaten Tolikara;Karubaga
+BTW;33;Kabupaten Waropen;Botawa
+TMR;33;Kabupaten Boven Digoel;Tanah Merah
+KEP;33;Kabupaten Mappi;Kepi
+AGT;33;Kabupaten Asmat;Agats
+SRW;33;Kabupaten Supiori;Sorendiweri
+BRM;33;Kabupaten Mamberamo Raya;Burmeso
+KBK;33;Kabupaten Mamberamo Tengah;Kobakma
+ELL;33;Kabupaten Yalimo;Elelim
+TOM;33;Kabupaten Lanny Jaya;Tiom
+KYM;33;Kabupaten Nduga;Kenyam
+ILG;33;Kabupaten Puncak;Ilaga
+KGM;33;Kabupaten Dogiyai;Kigamani
+SGP;33;Kabupaten Intan Jaya;Sugapa
+TIG;33;Kabupaten Deiyai (Deliyai);Tigi
+JAP;33;Kota Jayapura;Jayapura
+AMS;34;Kabupaten Sorong;Aimas
+MNK;34;Kabupaten Manokwari;Manokwari
+FFK;34;Kabupaten Fakfak;Fak Fak
+TMB;34;Kabupaten Sorong Selatan;Teminabuan
+WAS;34;Kabupaten Raja Ampat;Waisai
+BTI;34;Kabupaten Teluk Bintuni;Bintuni
+RAS;34;Kabupaten Teluk Wondama;Rasiei
+KMN;34;Kabupaten Kaimana;Kaimana
+FEF;34;Kabupaten Tambrauw;Fef
+AFT;34;Kabupaten Maybrat;Aifat
+ANG;34;Kabupaten Pegunungan Arfak;Anggi
+RNK;34;Kabupaten Manokwari Selatan;Ransiki
+SON;34;Kota Sorong;Sorong

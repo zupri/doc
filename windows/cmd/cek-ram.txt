@@ -1,0 +1,15 @@
+C:\Users\user>systeminfo | findstr "Total Physical Memory:"
+Total Physical Memory:     1.944 MB
+Available Physical Memory: 468 MB
+Virtual Memory: Max Size:  4.342 MB
+Virtual Memory: Available: 974 MB
+Virtual Memory: In Use:    3.368 MB
+
+ATAU
+
+C:\Users\user>systeminfo | findstr "Memory:"
+Total Physical Memory:     1.944 MB
+Available Physical Memory: 460 MB
+Virtual Memory: Max Size:  4.342 MB
+Virtual Memory: Available: 969 MB
+Virtual Memory: In Use:    3.373 MB

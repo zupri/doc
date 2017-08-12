@@ -1,0 +1,13 @@
+get_packages_via_proxy.txt
+--------------------------
+C:\Users\php>set HTTP_PROXY=http://username:password@proxyserver:port && php composer.phar install
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+
+    Authentication required (packagist.org):
+      Username: user.name
+      Password:
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing monolog/monolog (1.0.2): Downloading (100%)
+Writing lock file
+Generating autoload files

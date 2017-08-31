@@ -12,4 +12,4 @@ Contoh untuk melihat direktori /lib :
     
 Disimpan ke file :
 
-   find /lokasi/direktori -type f > /lokasi/filenya.txt
+    find /lokasi/direktori -type f > /lokasi/filenya.txt

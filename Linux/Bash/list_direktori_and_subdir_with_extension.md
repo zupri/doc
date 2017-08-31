@@ -13,3 +13,11 @@ Contoh untuk melihat direktori /lib :
 Disimpan ke file :
 
     find /lokasi/direktori -type f > /lokasi/filenya.txt
+
+Cara lain menggunkanan tree :
+
+    tree -d > output.txt
+
+`tree`, Biasanya perintah ini belum terinstall di system maka harus di install.
+
+    sudo apt-get install tree

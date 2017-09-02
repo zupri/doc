@@ -4,15 +4,15 @@ Linux yang saya gunakan saat ini Linux Mint 18.2 Berikut cara instalasinya :
 
 1. Install Apache
     
-    sudo apt-get install apache2
+    `sudo apt-get install apache2`
     
 2. Test Apache
 
-Buka web browser dan ketikan `http://localhost/`. Jika berhasil akan muncul web default apache. Secara default document root berada di `/var/www/html`
+Buka web browser dan ketikan `http://localhost/`. Jika berhasil akan muncul web default apache. Secara default document root berada di `/var/www/html/`
 
 3. Install php
 
-    sudo apt install php
+    `sudo apt-get install php libapache2-mod-php`
     
 4. Test Php
 

@@ -1,0 +1,85 @@
+fsck from util-linux 2.27.1
+Usage: fsck.ext4 [-panyrcdfvtDFV] [-b superblock] [-B blocksize]
+		[-I inode_buffer_blocks] [-P process_inode_size]
+		[-l|-L bad_blocks_file] [-C fd] [-j external_journal]
+		[-E extended-options] device
+
+Emergency help:
+ -p                   Automatic repair (no questions)
+ -n                   Make no changes to the filesystem
+ -y                   Assume "yes" to all questions
+ -c                   Check for bad blocks and add them to the badblock list
+ -f                   Force checking even if filesystem is marked clean
+ -v                   Be verbose
+ -b superblock        Use alternative superblock
+ -B blocksize         Force blocksize when looking for superblock
+ -j external_journal  Set location of the external journal
+ -l bad_blocks_file   Add to badblocks list
+ -L bad_blocks_file   Set badblocks list
+
+man fsck
+FSCK(8)                                 System Administration                                 FSCK(8)
+
+NAME
+       fsck - check and repair a Linux filesystem
+
+SYNOPSIS
+       fsck [-lsAVRTMNP] [-r [fd]] [-C [fd]] [-t fstype] [filesystem...] [--] [fs-specific-options]
+
+DESCRIPTION
+       fsck  is  used to check and optionally repair one or more Linux filesystems.  filesys can be a
+       device name (e.g.  /dev/hdc1, /dev/sdb2), a mount point (e.g.  /, /usr,  /home),  or  an  ext2
+       label or UUID specifier (e.g.  UUID=8868abf6-88c5-4a83-98b8-bfc24057f7bd or LABEL=root).  Nor‐
+       mally, the fsck program will try to handle filesystems on different physical  disk  drives  in
+       parallel to reduce the total amount of time needed to check all of them.
+
+       If  no filesystems are specified on the command line, and the -A option is not specified, fsck
+       will default to checking filesystems in /etc/fstab serially.  This is equivalent  to  the  -As
+       options.
+
+       The exit code returned by fsck is the sum of the following conditions:
+
+              0      No errors
+              1      Filesystem errors corrected
+              2      System should be rebooted
+              4      Filesystem errors left uncorrected
+              8      Operational error
+              16     Usage or syntax error
+              32     Checking canceled by user request
+              128    Shared-library error
+
+       The  exit  code  returned when multiple filesystems are checked is the bit-wise OR of the exit
+       codes for each filesystem that is checked.
+
+       In actuality, fsck is simply a front-end for the  various  filesystem  checkers  (fsck.fstype)
+       available  under  Linux.  The filesystem-specific checker is searched for in the PATH environ‐
+       ment variable. If the PATH is undefined then fallback to "/sbin".
+
+       Please see the filesystem-specific checker manual pages for further details.
+
+OPTIONS
+       -l     Create an exclusive  flock(2)  lock  file  (/run/fsck/<diskname>.lock)  for  whole-disk
+              device.   This  option  can be used with one device only (this means that -A and -l are
+              mutually exclusive).  This option is recommended when more fsck(8) instances  are  exe‐
+              cuted  in  the  same time.  The option is ignored when used for multiple devices or for
+              non-rotating disks.  fsck does not lock  underlying  devices  when  executed  to  check
+              stacked devices (e.g. MD or DM) – this feature is not implemented yet.
+
+       -r [fd]
+              Report  certain  statistics  for each fsck when it completes.  These statistics include
+              the exit status, the maximum run set size (in kilobytes), the  elapsed  all-clock  time
+              and the user and system CPU time used by the fsck run.  For example:
+
+              /dev/sda1: status 0, rss 92828, real 4.002804, user 2.677592, sys 0.86186
+
+              GUI  front-ends may specify a file descriptor fd, in which case the progress bar infor‐
+              mation will be sent to that file descriptor in a machine parseable format.   For  exam‐
+              ple:
+
+              /dev/sda1 0 92828 4.002804 2.677592 0.86186
+
+ Manual page fsck(8) line 1/237 22% (press h for help or q to quit)
+
+
+              
+       

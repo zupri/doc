@@ -1,3 +1,4 @@
+fsck h
 fsck from util-linux 2.27.1
 Usage: fsck.ext4 [-panyrcdfvtDFV] [-b superblock] [-B blocksize]
 		[-I inode_buffer_blocks] [-P process_inode_size]

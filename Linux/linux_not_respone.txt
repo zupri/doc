@@ -1,0 +1,14 @@
+CLose aplikasi linux yang Not Respone
+
+1. Buka terminal dengan menekan ctrl+alt+t.
+2. Lihat proses ID aplikasi dengan cara 'pgrep [nama aplikasi]. jika nama aplikasi tidak sesuai coba2 terus.
+   Contoh :
+   akan menutup aplikasi browser chrome
+   user@hostname ~ $ pgrep chromium
+   4242
+   4261
+   4263
+   4376
+   4384
+   user@hostname ~ $ kill 4242
+3. selesai.

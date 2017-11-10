@@ -10,5 +10,10 @@ CLose aplikasi linux yang Not Respone
    4263
    4376
    4384
+   
+   atau dengan cara lain 'ps -aux | less'.
+   
+3. Kill proses yg ingin di close dengan perintah 'kill [proses id].
+   contoh :
    user@hostname ~ $ kill 4242
 3. selesai.

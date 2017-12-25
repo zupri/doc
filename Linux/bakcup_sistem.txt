@@ -1,0 +1,76 @@
+Backup dan Restore Sistem Ubuntu
+
+Bagi pengguna Windows untuk meelakukan backup biasanya mengguanakan aplikasi tertentu misal ghost atau acronis. Bisakah melakukan backup tanpa aplikasi tersebut misal cukup dengan kumpulkan dalam satu direktori saja (archive) saja misal zip. Di Windows hal ini tidak memungkinkan karena ada banyak file yang tidak bisa disalin atau di timpa saat digunakan, oleh karena itu Anda memerlukan perangkat lunak khusus untuk mengatasi ini.
+
+Di linux Anda bisa melakukan backup sistem sambil menjalankan sistem tersebut dengan perintah terminal 'tar'.
+
+1. Backup sistem
+
+- masuk sebagai root dengan cara ketik 'sudo su'.
+- masuk ke file system atau direktori yang akan di backup dalam contoh ini direktori yang akan di backup adalah root (/).
+- berikut ini adalah perintah untuk melakukan backup sistem :
+
+  `tar -cvpfz namaBackup.tgz --exclude = /proc --exclude = /lost + found --exclude = /backup.tgz --exclude = /mnt --exclude = /media -C /lokasi/backup/disimpan`
+  
+Penjelasan perintah di atas
+
+tar adalah program yang kita gunakan untuk archive.
+cvpzf adalah perintah-perintah tar Anda bisa melihat manualnya dengan cara ketik 'man tar' atau 'tar --help' berikut penjelasan perintah tersebut.
+
+c = create atau membuat archive baru.
+v = verbose, menampilakn daftar progess file yang diproses.
+p = informasi ekstrak tentang hak akses file secara default adalah superuser.
+f = jadikan file archive.
+z = type file archivegzip
+-C = lokasi file backup akan disimpan.
+
+--exclude = file yang tidak ingin dibackup.
+
+/proc = direktori ini adalah proses dan informasi sistem yang sedang berjalan sehingga tidak perlu di backup.
+/lost + found = Berisi file-file untuk keperluan recovery system jika terjadi hal tak terduga.
+/mnt = tempat mount device sementara
+/media = Direktori mount untuk perangkat removable seperti Flashdisk, partisi atau portable hdd
+
+2. Restore sistem
+
+PERHATIAN: Jika Anda mau melakukan restore file sistem pastikan bahwa Anda berada file sistem atau root yang benar.
+
+- Berikut cara ekstark file sistem. HAL INI AKAN MENIMPA FILE YANG SAMA.
+   'tar xvpfz namaBackup.tgz -C /'
+
+- Buat file yang di exclude tersbut
+mkdir proc 
+mkdir lost + found 
+mkdir mnt 
+mkdir media 
+dst jika ada ...
+
+3. Restore ke Media lain
+Jika Anda ingin restore ke media lain misal hardisk atau usb lain maka Anda harus mengistal ulang GRUB. Berikut cara recovery GRUB.
+
+- Gunakan cd instalasi Linux ubuntu atau usb bootable.
+- Buat partisi .
+- Pilih manual partisi.
+- Buat partisi linux sbb:
+  /
+  /boot
+  swap
+- Jangan melakukan apapun pada partisi tersebut.
+- Klik 'Yes' saat diminta perubahan.
+- ini akan menampilakan pesan kesalahan "the system couldn't install ....." 
+- klik 'continue' samapai Anda kembali ke menu instalasi ubuntu.
+- Instal Grub
+- Selesai. Restart komputer Anda.
+
+ Atau cara Lain
+
+- Gunakan cd instalasi Linux ubuntu atau usb bootable.
+- Buka terminal 
+- Ketik " grub " 
+- Ketik "root (hd0,6)", atau apa pun partisi harddisk + partisi boot Anda (my / boot ada di / dev / sda7, yang berarti hd0,6 untuk grub ). 
+5. Ketik "setup (hd0)", atau apa pun nomor harddisk Anda. 
+6. Tutup grub dengan mengetik "quit". 
+7. Reboot. 
+
+Selesai.
+

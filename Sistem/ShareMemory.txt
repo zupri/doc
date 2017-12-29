@@ -1,0 +1,30 @@
+SHARE MEMORY
+
+Definisi
+
+Apa itu share Memory ?
+
+Share memory atau memori bersama untuk perangkat lunak adalah jenis memori yang dapat dibagi oleh beberapa aplikasi atau 
+proses dengan tujuan menyediakan komunikasi antar aplikasi atau menghindari salinan data yang berlebihan. Ini adalah cara 
+yang efisien untuk berbagi atau melewatkan data karena menghilangkan kebutuhan untuk menggunakan proses lain seperti 
+input / output (I / O). Satu aplikasi menyimpan data dalam memori bersama, sementara aplikasi lain mungkin menggunakannya 
+saat ditemukan.
+
+Dalam konteks prosesor, shared memory merupakan bagian dari random access memory (RAM) yang bisa diakses oleh semua 
+prosesor dalam sistem multi-prosesor.
+
+Memori bersama untuk perangkat lunak adalah cara untuk berbagai program untuk berkomunikasi dan menyampaikan data tanpa 
+overhead lebih banyak dari proses komunikasi. Dengan memori bersama, satu program menulis ke memori bersama setiap data 
+yang dibutuhkan program lain untuk diterima.
+
+Misalnya, jika Program A ingin memberi daftar ke Program B, ini menghemat data dalam memori bersama dan menandainya dengan 
+semafor atau sistem penandaan lainnya untuk memberi sinyal bahwa ia siap untuk dibaca oleh Program B. 
+
+Ketika Program B menemukan file tersebut, ia akan memeriksa semaphore untuk melihat apakah file tersebut diperbolehkan untuk 
+menyentuh file tersebut. Jika diizinkan, maka ia melakukan apa yang perlu dilakukan terhadap file tersebut, meletakkannya 
+di memori bersama atau memperbaruinya. Ini juga memperbarui semafor, sehingga Program A tahu bahwa itu harus mengambil file.
+
+Dalam hal perangkat keras, khususnya mikroprosesor, memori bersama adalah blok besar RAM yang digunakan oleh beberapa prosesor.
+Mudah diprogram karena semua prosesor memiliki tampilan data yang sama, memudahkan komunikasi lebih cepat. 
+Namun, ini bisa menjadi rumit karena prosesor menyimpan memori cache untuk akses lebih cepat, yang bisa menimbulkan masalah 
+seperti koherensi cache.

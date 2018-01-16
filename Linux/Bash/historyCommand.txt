@@ -1,0 +1,9 @@
+Melihat perintah-perintah yang pernah dikerjakan
+
+`history`
+
+Jika ingin mencari kata tertentu :
+
+`history | grep install`
+
+Contoh di atas adalah mencari perintah yang mengandung kata 'install'.

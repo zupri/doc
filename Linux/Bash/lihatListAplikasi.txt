@@ -1,0 +1,19 @@
+Cara melihat aplikasi yang terinstal dan barusan terinstal di Ubuntu
+
+- melihat semua aplikasi yang terinstal via Terminal.
+`dpkg -l`
+
+ atau
+ 
+`dpkg –list`
+
+
+- Melihat aplikasi yang terakhir kita install
+
+cat /var/log/dpkg.log
+
+atau
+
+cat /var/log/apt/history.log
+
+Perintah cat /var/log/apt/history.log akan menampilkan rincian lebih detail.

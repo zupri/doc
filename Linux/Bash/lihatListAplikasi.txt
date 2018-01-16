@@ -23,4 +23,5 @@ Perintah cat /var/log/apt/history.log akan menampilkan rincian lebih detail.
 /var/log/installer/initial-status.gz
 
 - Daftar package yang didownload untuk instalasi
-/var/cache/apt/archives/'
+`/var/cache/apt/archives/`
+ Kita pun bisa meng-copy file .deb yang ada di '/var/cache/apt/archives/' untuk di install.

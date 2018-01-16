@@ -24,4 +24,4 @@ Perintah cat /var/log/apt/history.log akan menampilkan rincian lebih detail.
 
 - Daftar package yang didownload untuk instalasi
 `/var/cache/apt/archives/`
- Kita pun bisa meng-copy file .deb yang ada di '/var/cache/apt/archives/' untuk di install.
+ Kita pun bisa meng-copy file .deb yang ada di '/var/cache/apt/archives/' untuk di install tanpa men-download lagi.

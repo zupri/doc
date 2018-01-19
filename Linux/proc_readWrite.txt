@@ -1,0 +1,47 @@
+Cara melihat proses read dan write stdin dan stdout pada system ubuntu
+
+1. Pilih PID yang akan diperikasa dengan cara masuk ke direktori fd pada PID tersebut 
+   'cd /proc/<NO_PID>/fd/'
+2. Setelah berada pada direktori 'fd' lihat daftar file dengan format listing long (-l)
+   'ls -l'
+3. Untuk melihat aktivitas read()/write() anda bisa menggunakan 'gdb' atau 'strace'.
+4. strace adalah system trace call dan signal berikut dengan cara sbb:
+   strace [-CdffhikqrtttTvVxxy] [-In] [-bexecve] [-eexpr]...  [-acolumn] [-ofile] [-sstrsize]
+       [-Ppath]... -ppid... / [-D] [-Evar[=val]]... [-uusername] command [args]
+
+   strace -c[df] [-In]  [-bexecve]  [-eexpr]...   [-Ooverhead]  [-Ssortby]  -ppid...  /  [-D]
+       [-Evar[=val]]... [-uusername] command [args]
+
+   untuk lebih jelas setiap perintahnya bisa di lihat di manualnya dengan cara ketik 'man strace'
+   
+   contoh penggunaan pid 6490 (aplikasi bash):
+   # strace -p 6490 -e trace=read,write -e read=0 -e write=1,2 
+   hasil setiap ada aktivitas di bash maka proses read/wirte di tampilkan secara realtime:
+   
+ubuntu@ubuntu-pc:/proc/6490/fd$ ls -l
+total 0
+lrwx------ 1 ubuntu ubuntu 64 Jan 19 13:34 0 -> /dev/pts/17
+lrwx------ 1 ubuntu ubuntu 64 Jan 19 13:34 1 -> /dev/pts/17
+lrwx------ 1 ubuntu ubuntu 64 Jan 19 13:34 2 -> /dev/pts/17
+lrwx------ 1 ubuntu ubuntu 64 Jan 19 13:35 255 -> /dev/pts/17
+ubuntu@ubuntu-pc:/proc/6490/fd$ sudo strace -p 5490 -e trace=read,write -e read=0 -e write=1,2
+strace: attach: ptrace(PTRACE_ATTACH, ...): No such process
+ubuntu@ubuntu-pc:/proc/6490/fd$ sudo strace -p 6490 -e trace=read,write -e read=0 -e write=1,2
+strace: Process 6490 attached
+read(0, "l", 1)                         = 1
+ | 00000  6c                                                l                |
+write(2, "l", 1)                        = 1
+ | 00000  6c                                                l                |
+read(0, "s", 1)                         = 1
+ | 00000  73                                                s                |
+write(2, "s", 1)                        = 1
+ | 00000  73                                                s                |
+read(0, "\r", 1)                        = 1
+ | 00000  0d                                                .                |
+write(2, "\n", 1)                       = 1
+ | 00000  0a                                                .                |
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6562, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+read(3, "\33]7;file://zupri-pc/home/zupri\7", 128) = 31
+read(3, "", 128)                        = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=6563, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+read(0, 

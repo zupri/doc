@@ -1,0 +1,10 @@
+Cara menggunkan aplikasi rsync
+
+1. Instal aplikasi rsync dengan ketik 'sudo apt install rsync'
+2. cara menggunakan :
+   rsync -avzh direktori_asal direktori_tujuan
+   
+   -a mode archive
+   -v verbose
+   -z compress data selama transfer
+   -h human-readable agar format bisa dibaca manusia.

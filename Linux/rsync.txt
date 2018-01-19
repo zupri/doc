@@ -8,3 +8,9 @@ Cara menggunkan aplikasi rsync
    -v verbose
    -z compress data selama transfer
    -h human-readable agar format bisa dibaca manusia.
+
+- Sinkron direktori remote komputer dengan lokal komputer
+rsync -r -a -v -e "ssh -l username" --delete <ip_address>:/direktori/sumber/ /direktori/tujuan/
+
+- Sinkron direktori lokal komputer dengan remote komputer
+rsync -r -a -v -e "ssh -l username" --delete /direktori/lokal/ 192.168.1.1:/direktori/remote/

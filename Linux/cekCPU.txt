@@ -1,0 +1,8 @@
+CEK INFORMASI CPU DI UBUNTU
+
+sudo lshw | grep -i cpu
+atau
+cat /proc/cpuinfo  | grep 'name'| uniq
+
+atau jika ingin melihat jumlah CPU
+cat /proc/cpuinfo  | grep process| wc -l
